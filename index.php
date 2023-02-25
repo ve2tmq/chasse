@@ -8,7 +8,7 @@ include 'chasse.php';
 <h1><a target="_blank" href="https://fr.wikipedia.org/wiki/Radiogoniom%C3%A9trie_sportive">Radiogoniom&eacute;trie sportive</a></h1>
 <h1>Chasse &agrave; l'&eacute;metteur <?php echo strftime("%e %B %Y", chasse_debut);?></h1>
 <div class="container"><ul>
-<li>Les limites du territoire sont repr&eacute;sentes sur la carte (<a href="chasse_2022-04-30.kmz">aussi disponible en format KML (Google Earth)</a>).</li>
+<li>Les limites du territoire sont repr&eacute;sentes sur la carte (<a href="chasse.kmz">aussi disponible en format KML (Google Earth)</a>).</li>
 <li>Les balises transmettent en alternance suivant la cadence de la chasse.</li>
 <li>La cadence est 30 secondes de transmission suivi de 3 minutes de silence radio.</li>
 <li>La fr&eacute;quence de chasse est 146.565 MHz et la modulation est en FM.</li>
@@ -26,6 +26,6 @@ include 'chasse.php';
 <center><a href="https://www.ve2tmq.ca/~kea/chasse/inscription.php"><button type="Button">Inscription</button></a></center>
 </div><div>
 <br>
-<center><a href="chasse_2022-04-30.jpg"><img src="chasse_2022-04-30.jpg" width="75%"></a></center><br>
+<center><a href="chasse.jpg"><img src="chasse.jpg" width="75%"></a></center><br>
 </body>
 </html>
