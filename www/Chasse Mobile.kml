@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Chasse Mobile.kml</name>
+	<Style id="sh_P">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="inline11">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_P">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/P-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_P">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_P</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_P</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="inline01">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_J">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/J.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/J-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_J">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_J</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_J</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="inline2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_J">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/J.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/J-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Chasse Mobile</name>
+		<open>1</open>
+		<NetworkLink>
+			<name>RaspberryPI - Mobile</name>
+			<description>Mobile device Android.</description>
+			<Link>
+				<href>http://192.168.43.14:8000/azimuth.kml</href>
+				<refreshMode>onInterval</refreshMode>
+			</Link>
+		</NetworkLink>
+		<Placemark>
+			<name>Limite</name>
+			<styleUrl>#inline2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-73.11464074264755,45.82266730494548,0 -73.12185377507609,45.78387160487765,0 -73.13387462443244,45.74566075480462,0 -73.15060254032646,45.70832405027672,0 -73.17190186619975,45.67214359986975,-7.081154781429788e-10 -73.19760331724386,45.63739224205709,-7.081154781429788e-10 -73.22750547765021,45.60433154628152,0 -73.26137650008978,45.57320991101628,0 -73.29895599010122,45.54426077057345,0 -73.33995705806868,45.51770092138015,0 -73.38406852164951,45.49372897741086,0 -73.43095724183097,45.47252396344503,0 -73.48027057620854,45.45424405382024,0 -73.53163893355327,45.43902546337485,0 -73.58467841423192,45.42698149632628,0 -73.63899352153389,45.41820175790572,0 -73.69417992941224,45.41275153267357,0 -73.74982729254056,45.41067133256165,0 -73.8055220849033,45.41197661683254,0 -73.86085045336107,45.41665768530089,0 -73.91540107275159,45.42467974532806,0 -73.96876798910093,45.43598315226966,0 -74.02055343742242,45.45048382222182,0 -74.0703706203811,45.46807381507141,0 -74.11784643380521,45.488622085001,-7.081154781429788e-10 -74.16262412464836,45.51197539472778,0 -74.20436586656434,45.53795938886245,0 -74.24275523777233,45.56637982085667,0 -74.27749958539263,45.59702392706456,-7.081154781429788e-10 -74.30833225995073,45.62966194047311,0 -74.33501470331576,45.66404873566406,0 -74.35733837299667,45.69992559555281,0 -74.3751264855034,45.73702208942206,0 -74.3882355614349,45.7750580507284,0 -74.39655675511992,45.81374564212857,0 -74.40001695205271,45.85279149415314,-7.081154781429788e-10 -74.39857961807044,45.89189890297017,0 -74.39224538524596,45.93077007174601,0 -74.38105236084701,45.96910837924214,0 -74.36507614745872,46.00662065851199,0 -74.34442956449227,46.04301946789762,0 -74.31926206380558,46.07802533599938,0 -74.28975883502957,46.11136896192524,-7.081154781429788e-10 -74.25613959939798,46.1427933519386,-7.081154781429788e-10 -74.21865709437817,46.17205587364072,-7.081154781429788e-10 -74.17759525514066,46.19893020905754,0 -74.13326710281785,46.22320818846838,0 -74.08601235350736,46.24470148752373,-7.081154781429788e-10 -74.03619476598364,46.26324317115622,0 -73.98419924999783,46.27868906898877,0 -73.93042876076865,46.29091896838269,0 -73.87530100869895,46.29983761292901,0 -73.81924501639759,46.30537549604874,-1.416230956285958e-09 -73.76269755765551,46.30748944140618,0 -73.70609951504588,46.30616296402282,0 -73.64989219422577,46.30140640826785,0 -73.59451363377333,46.29325686126132,-7.081154781429788e-10 -73.54039494947136,46.28177784260874,0 -73.48795675134764,46.2670587737552,-7.081154781429788e-10 -73.43760567051937,46.24921423255527,-7.081154781429788e-10 -73.38973103100516,46.22838300086647,0 -73.34470169921694,46.20472691504741,-7.081154781429788e-10 -73.30286314090171,46.17842953114851,-7.081154781429788e-10 -73.2645347119509,46.14969461829084,0 -73.23000720583082,46.11874449522006,0 -73.19954067650633,46.08581822627823,0 -73.17336255173433,46.05116969404861,0 -73.15166604758987,46.01506556669544,0 -73.13460889114585,45.97778317854208,-7.081154781429788e-10 -73.12231235444185,45.93960834271888,-7.081154781429788e-10 -73.11486059931691,45.90083311477531,0 -73.1123003294055,45.86175352601013,0 -73.11464074264755,45.82266730494548,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Depart</name>
+			<LookAt>
+				<longitude>-73.75721473185745</longitude>
+				<latitude>45.85242114371515</latitude>
+				<altitude>0</altitude>
+				<heading>3.24505297769417</heading>
+				<tilt>30.00057696751191</tilt>
+				<range>128.2661601932926</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-73.7570862417175,45.85242879946196,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Provigo</name>
+			<address>1095 Rue Saint-Isidore, Saint-Lin - Laurentides, QC J5M 2V5</address>
+			<phoneNumber>(450) 439-5986</phoneNumber>
+			<snippet>1095 Rue Saint-Isidore, Saint-Lin - Laurentides, QC J5M 2V5</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=45.847039800000005&lng=-73.75707355000002&fid=0x4cc8cf1a6c1d5a0f:0x7609683010b73d82&hl=en&gl=&client=earth-client&cv=7.3.2.5776&useragent=GoogleEarth/7.3.2.5776(X11;Linux (5.0.0.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_P</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=45.847039800000005&amp;lng=-73.75707355000002&amp;fid=0x4cc8cf1a6c1d5a0f:0x7609683010b73d82&amp;hl=en&amp;gl=&amp;client=earth-client&amp;cv=7.3.2.5776&amp;useragent=GoogleEarth/7.3.2.5776(X11;Linux (5.0.0.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.7561599,45.8659667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jacques JRC</name>
+			<LookAt>
+				<longitude>-73.72135959049322</longitude>
+				<latitude>45.76111526755026</latitude>
+				<altitude>0</altitude>
+				<heading>-139.7176963590388</heading>
+				<tilt>46.85160472823861</tilt>
+				<range>98.82572241930254</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_J</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-73.72138004954124,45.76112000918664,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
