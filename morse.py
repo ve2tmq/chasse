@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 # coding: utf-8
-from tone import tone
-import time
 import numpy
-        
+
+from tone import tone
+
+
 class morse:
     length = None
     hz = None

@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import math
 import numpy
 import sounddevice as sa
 

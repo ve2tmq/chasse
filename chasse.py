@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # coding: utf-8
 
-import time, math, morse, sys
+import time, morse, sys
 import RPi.GPIO as GPIO
 from signal import signal, SIGINT
 from datetime import datetime, timedelta

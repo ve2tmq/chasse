@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 # coding: utf-8
 
-import time, math, morse, sys
-from signal import signal, SIGINT
+import morse
+import sys
+import time
 from datetime import datetime, timedelta
+from signal import signal, SIGINT
+
 import Hamlib
 
 Hamlib.rig_set_debug(Hamlib.RIG_DEBUG_NONE)
